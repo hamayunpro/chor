@@ -103,10 +103,10 @@ def main():
 
    #logo
 	
-	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;93m Crack From Friend List"
-	print "\x1b[1;96m[\x1b[1;92m2\x1b[1;96m]\x1b[1;93m Crack From Any Public ID"
-	print "\x1b[1;96m[\x1b[1;92m3\x1b[1;96m]\x1b[1;93m Crack From File"
-	print "\x1b[1;96m[\x1b[1;91m0\x1b[1;96m]\x1b[1;91m Back"
+	print("\033[1;97m[1]\033[1;91m -> \033[1;93mCrack From Friend List"
+	print("\033[1;97m[1]\033[1;91m -> \033[1;93mCrack From Any Public ID"
+	print("\033[1;97m[1]\033[1;91m -> \033[1;93mCrack From File"
+	print("\033[1;97m[1]\033[1;91m -> \033[1;93mBack"
 	pilih_super()
 
 def pilih_super():
