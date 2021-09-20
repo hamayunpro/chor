@@ -99,8 +99,8 @@ def main():
 
     print("")
 
-#l
-	os.system('clear')
+
+
 	print logo
 	print 42*"\033[1;96m="
 	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;93m Crack From Friend List"
