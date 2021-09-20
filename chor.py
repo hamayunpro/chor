@@ -66,59 +66,6 @@ c3 = "\033[1;91m"
 
 #Dev/Hamayun/khan
 
-logo = """ 
-\033[1;97m  
-\033[1;93m    
-\033[1;93m  
-\033[1;97m                                                             
-                          
-                     d8888b. d88888b .d8888. d888888b 
-                     88  `8D 88'     88'  YP `~~88~~' 
-                     88oooY' 88ooooo `8bo.      88    
-                     88~~~b. 88~~~~~   `Y8b.    88    
-                     88   8D 88.     db   8D    88    
-                     Y8888P' Y88888P `8888Y'    YP    
-                                  
-                       EVERYTHING IS POSSIBLE TO ME            
-
-
-os.system("clear")
-	print logo
-	print 42*"\033[1;96m="
-	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m Name \033[1;91m: \033[1;92m"+nama+"\033[1;97m"
-	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m"
-	print 42*"\033[1;96m="
-	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;93m Start Hacking"
-	print "\x1b[1;96m[\x1b[1;91m0\x1b[1;96m]\x1b[1;91m Exit            "
-	pilih()
-
-
-def pilih():
-	unikers = raw_input("\n\033[1;97m >>> \033[1;97m")
-	if unikers =="":
-		print "\033[1;96m[!] \x1b[1;91mFill in correctly"
-		pilih()
-	elif unikers =="1":
-		super()
-	elif unikers =="0":
-		jalan('Token Removed')
-		os.system('rm -rf login.txt')
-		keluar()
-	else:
-		print "\033[1;96m[!] \x1b[1;91mFill in correctly"
-		pilih()
-
-
-def super():
-	global toket
-	os.system('clear')
-	try:
-		toket=open('login.txt','r').read()
-	except IOError:
-		print"\033[1;96m[!] \x1b[1;91mToken invalid"
-		os.system('rm -rf login.txt')
-		time.sleep(1)
-		login()
 	os.system('clear')
 	print logo
 	print 42*"\033[1;96m="
