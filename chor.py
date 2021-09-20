@@ -101,13 +101,26 @@ def main():
 
 
 
-   #logo
+   
+	print("")
 	
 	print("\033[1;97m[1]\033[1;91m -> \033[1;93mCrack From Friend List"
+	      
+	print("")
+	      
 	print("\033[1;97m[1]\033[1;91m -> \033[1;93mCrack From Any Public ID"
+	      
+	print("")
+	      
 	print("\033[1;97m[1]\033[1;91m -> \033[1;93mCrack From File"
+	      
+	print("")
+	      
 	print("\033[1;97m[1]\033[1;91m -> \033[1;93mBack"
-	pilih_super()
+	      
+	print("")
+	      
+	
 
 def pilih_super():
 	peak = raw_input("\n\033[1;97m >>> \033[1;97m")
