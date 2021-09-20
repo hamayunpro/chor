@@ -99,7 +99,7 @@ def main():
 
     print("")
 
-
+#l
 	os.system('clear')
 	print logo
 	print 42*"\033[1;96m="
